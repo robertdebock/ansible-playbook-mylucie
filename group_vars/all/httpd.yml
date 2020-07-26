@@ -1,0 +1,5 @@
+---
+httpd_vhosts:
+  - name: docroot
+    servername: mylucie.duckdns.org
+    documentroot: /var/www/html/owncloud

@@ -1,0 +1,3 @@
+---
+# owncloud_admin_pass: set in vault.yml
+owncloud_domain_url: mylucie.duckdns.org

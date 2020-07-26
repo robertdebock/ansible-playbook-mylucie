@@ -1,0 +1,30 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: configure system
+  hosts: all
+  become: yes
+  gather_facts: no
+
+  roles:
+    - role: robertdebock.bootstrap
+    - role: robertdebock.hostname
+    - role: robertdebock.update
+    - role: robertdebock.postfix
+    - role: robertdebock.firewall
+    - role: robertdebock.ntp
+    - role: robertdebock.cron
+    - role: robertdebock.core_dependencies
+    - role: robertdebock.buildtools
+    - role: robertdebock.epel
+    - role: robertdebock.fail2ban
+    - role: robertdebock.openssh
+    - role: robertdebock.python_pip
+    - role: robertdebock.openssl
+    - role: robertdebock.httpd
+    - role: robertdebock.certbot
+    - role: robertdebock.redis
+    - role: robertdebock.php
+    - role: robertdebock.php_fpm
+    - role: robertdebock.mysql
+    - role: robertdebock.httpd
+    - role: robertdebock.owncloud

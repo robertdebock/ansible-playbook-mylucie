@@ -1,0 +1,22 @@
+---
+- robertdebock.bootstrap
+- robertdebock.buildtools
+- robertdebock.certbot
+- robertdebock.core_dependencies
+- robertdebock.epel
+- robertdebock.fail2ban
+- robertdebock.firewall
+- robertdebock.hostname
+- robertdebock.httpd
+- robertdebock.mysql
+- robertdebock.ntp
+- robertdebock.openssh
+- robertdebock.openssl
+- robertdebock.owncloud
+- robertdebock.php
+- robertdebock.php_fpm
+- robertdebock.postfix
+- robertdebock.python_pip
+- robertdebock.redis
+- robertdebock.systemd
+- robertdebock.update

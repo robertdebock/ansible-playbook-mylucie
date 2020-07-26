@@ -1,0 +1,7 @@
+---
+mysql_databases:
+   - name: owncloud
+     encoding: utf8
+     collation: utf8_bin
+
+# mysql_users: set in vault.yml
