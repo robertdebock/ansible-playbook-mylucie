@@ -9,6 +9,7 @@
     - role: robertdebock.bootstrap
     - role: robertdebock.hostname
     - role: robertdebock.update
+    - role: robertdebock.auto_update
     - role: robertdebock.postfix
     - role: robertdebock.firewall
     - role: robertdebock.ntp
@@ -18,8 +19,8 @@
     - role: robertdebock.epel
     - role: robertdebock.fail2ban
     - role: robertdebock.openssh
-    - role: robertdebock.python_pip
-    - role: robertdebock.openssl
+    # - role: robertdebock.python_pip
+    # - role: robertdebock.openssl
     - role: robertdebock.httpd
     - role: robertdebock.certbot
     - role: robertdebock.redis

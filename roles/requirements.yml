@@ -1,4 +1,5 @@
 ---
+- robertdebock.auto_update
 - robertdebock.bootstrap
 - robertdebock.buildtools
 - robertdebock.certbot
