@@ -21,3 +21,5 @@
 - robertdebock.redis
 - robertdebock.systemd
 - robertdebock.update
+- robertdebock.zabbix_repository
+- robertdebock.zabbix_agent
