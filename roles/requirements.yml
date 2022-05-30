@@ -3,6 +3,7 @@
 - robertdebock.bootstrap
 - robertdebock.buildtools
 - robertdebock.certbot
+- robertdebock.cron
 - robertdebock.core_dependencies
 - robertdebock.epel
 - robertdebock.fail2ban
